@@ -2,7 +2,7 @@
 
 > Book skilled help by the hour. No subscriptions, no guesswork — just transparent hourly pricing.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-lime?style=for-the-badge)](https://on-demand-service-platform.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-lime?style=for-the-badge)](https://prince-sinha75.github.io/On-Demand-Service-Platform/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 [![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=flat-square&logo=supabase)](https://supabase.com)
@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-**[https://on-demand-service-platform.netlify.app](https://on-demand-service-platform.netlify.app)**
+**[https://prince-sinha75.github.io/On-Demand-Service-Platform/](https://prince-sinha75.github.io/On-Demand-Service-Platform/)**
 
 > Sign up for a free account to explore bookings, or register as a provider to see the provider dashboard.
 
