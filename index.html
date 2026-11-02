@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f0f0e" />
+    <meta
+      name="description"
+      content="Book trusted help by the hour for driving, home services, and social companionship."
+    />
+    <title>Hourhand — Help by the hour</title>
+    <meta property="og:title" content="Hourhand — Help by the hour" />
+    <meta
+      property="og:description"
+      content="Find the right help for your next task, journey, or outing."
+    />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hourhand — Help by the hour" />
+    <meta
+      name="twitter:description"
+      content="Find the right help for your next task, journey, or outing."
+    />
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
+    <script type="module" crossorigin src="/On-Demand-Service-Platform/assets/index-TG1G38B6.js"></script>
+    <link rel="stylesheet" crossorigin href="/On-Demand-Service-Platform/assets/index-DkgCGjQ1.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- GitHub Pages SPA redirect restore: reads the ?p= param set by 404.html
+         and replaces the URL with the original deep link before React Router boots -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+        // Also handle the ?p= query-param approach from 404.html
+        var search = window.location.search;
+        if (search.slice(1, 3) === 'p=') {
+          var decoded = decodeURIComponent(search.slice(3)).replace(/&/, '?');
+          history.replaceState(null, null, '/' + decoded + window.location.hash);
+        }
+      })();
+    </script>
+  </body>
+</html>
