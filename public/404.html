@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hourhand</title>
+    <script>
+      // GitHub Pages SPA redirect
+      // When GitHub Pages serves a 404 for a deep link like /book or /bookings,
+      // this script converts the path into a query param and redirects to the
+      // root index.html, which then restores the original URL via the script in index.html.
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 2).join('/') +
+        '/?p=' + encodeURIComponent(l.pathname.slice(1) + (l.search ? '&' + l.search.slice(1) : '')) +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
